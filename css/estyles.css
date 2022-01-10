@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* vars */
+/* vars */
+body {
+  background-color: #e4c687 !important;
+}
+
+div.boton-inicio {
+  margin-top: 40px !important;
+}
+
+div.boton-cocina {
+  margin-top: 45px !important;
+}
+
+/* Aplico mixing */
+a.inicio {
+  margin: 40px;
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  /* color: rgb(107, 68, 18); */
+  border: 2px solid #6b4412;
+  padding: 10px;
+  color: #755122;
+}
+
+a.cocinas {
+  margin: 40px;
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  /* color: rgb(107, 68, 18); */
+  border: 2px solid #6b4412;
+  padding: 10px;
+  color: #b8221d;
+}
+
+#header a:hover {
+  background-color: #625c50;
+  color: blanchedalmond;
+}
+
+#header h1.titulo_h1 {
+  margin-top: 100px !important;
+  text-align: center;
+  font-family: 'Lobster', cursive !important;
+  color: #5c4715 !important;
+}
+
+#header h2.titulo_h2 {
+  margin-top: 100px !important;
+  text-align: center;
+  font-family: 'Lobster', cursive !important;
+  color: #5c4715 !important;
+}
+
+#header .header_logo {
+  border-style: double;
+  position: absolute;
+  margin-top: 8px !important;
+  margin-left: 10px !important;
+  width: 200px;
+  height: auto;
+}
+
+/* aplicando maps las variables en su carpeta*/
+.titulo_h1 {
+  font-size: 50px;
+}
+
+.titulo_h2 {
+  font-size: 45px;
+}
+
+.animate__animated.animate__flipInX {
+  --animate-duration: 4s;
+}
+
+@media screen and (max-width: 900px) {
+  .header_logo {
+    display: none;
+  }
+}
+
+main div.flex_container {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 5px solid #8d5409;
+  background-image: url("../img/fabrica.jpg");
+  /*  background-position: center center;
+      background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .flex_items {
+  height: 198px;
+  border: #7e460f 8px solid;
+}
+
+main .flex_items:hover {
+  border: 8px solid #5858e7;
+}
+
+main .flex_items_texto {
+  font-family: 'Lobster', cursive;
+  background: blanchedalmond;
+  z-index: 800;
+  position: absolute;
+  text-align: center;
+  color: black;
+}
+
+main .card_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px;
+  row-gap: 10px;
+}
+
+main .card_item {
+  padding: 5px;
+  width: 290px;
+  height: auto;
+  border: 5px solid #8f550a;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+main .card_item:hover {
+  width: 540px;
+  height: auto;
+}
+
+main .card_item:hover .card_flex {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+main .card_img img {
+  width: 100%;
+}
+
+main .card_titulo {
+  text-align: center;
+}
+
+main .card_titulo h3 {
+  font-family: 'Lobster', cursive !important;
+  color: #5c4715 !important;
+}
+
+main .card_texto {
+  font-family: 'Lobster', cursive !important;
+  color: #362a0d !important;
+}
+
+#nosotros {
+  text-align: center;
+}
+
+/* map-get */
+.color_parrafo {
+  padding: 10px;
+  background: #6b4412;
+  color: #e4c687;
+}
+
+/* aplico extend en pagina contactos*/
+.formulario, .formulario-deco {
+  margin-left: 15%;
+  padding: 20px;
+  width: 70%;
+}
+
+.formulario-deco {
+  border: 8px solid #a13f06;
+}
+
+.footer {
+  background-color: black;
+  height: 80px;
+}
+
+.footer_realizado {
+  display: block;
+  text-align: center;
+  height: 20px;
+  color: white;
+}
+
+.footer_redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 10px;
+  margin-left: 45%;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=estyles.css.map */
